@@ -168,6 +168,22 @@ a:hover {
   transform: translateX(-5px);
 }
 
+a.noStyle{
+    text-align: none;
+    font-size: none;
+    text-decoration: none;
+    color:none;
+    transition: none;
+    padding:0;
+}
+
+a.noStyle:hover{
+    color:none;
+    text-align: none;
+    box-shadow: none;
+    transform: none;
+}
+
 p {
   display: flex;
   justify-content: center;
