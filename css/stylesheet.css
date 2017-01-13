@@ -112,7 +112,7 @@ p.home {
   display:flex;
   flex-direction:column;
   flex-wrap:wrap;
-  margin:1rem;
+  margin:1rem 2rem 2rem 2rem;
   width:300px;
   height:300px;
   box-shadow:0px 6px 0px 0px rgba(255, 90, 13, 1);
@@ -125,7 +125,7 @@ p.home {
     display:flex;
     flex-direction: column;
     flex-wrap:wrap;
-    margin:1rem;
+    margin:1rem 2rem 2rem 2rem;
     max-width:750px;
     max-height:750px;
     box-shadow:0px 6px 0px 0px rgba(255, 90, 13, 1);
