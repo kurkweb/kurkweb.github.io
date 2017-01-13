@@ -20,7 +20,7 @@ html {
 }
 
 .pattern{
-  height:1rem;
+  height:.5rem;
   width: 100%;
   background: repeating-linear-gradient(
   45deg,
@@ -33,7 +33,7 @@ html {
 }
 
 .pattern2{
-  height:1rem;
+  height:.5rem;
   width: 100%;
   margin-top: 1rem;
   background: repeating-linear-gradient(
@@ -57,9 +57,16 @@ body {
   font-size:62.5%;
 }
 
+p.title{
+    margin:0 auto;
+    padding:1.2rem 0 2rem 0;
+    font-size: 4rem;
+    width:100%;
+}
+
 .pageTitles {
     padding-top: 2rem;
-    margin: 0 auto;
+    margin: 0 auto 1rem 0;
     width:100%;
     height:125px;
     text-align: center;
@@ -86,7 +93,7 @@ p.home {
 .paper {
   display:flex;
   flex-direction:column;
-  margin:1rem 1rem 1rem 1rem;
+  margin:1rem;
   max-width:300px;
   max-height:50rem;
   box-shadow:6px 0px 0px 0px rgba(50, 50, 90, .1);
@@ -104,7 +111,8 @@ p.home {
 .paper2{
   display:flex;
   flex-direction:column;
-  margin:4rem 1rem 4rem 2rem;
+  flex-wrap:wrap;
+  margin:1rem;
   width:300px;
   height:300px;
   box-shadow:0px 6px 0px 0px rgba(255, 90, 13, 1);
@@ -116,7 +124,8 @@ p.home {
 .paper3{
     display:flex;
     flex-direction: column;
-    margin:3rem 3rem;
+    flex-wrap:wrap;
+    margin:1rem;
     max-width:750px;
     max-height:750px;
     box-shadow:0px 6px 0px 0px rgba(255, 90, 13, 1);
@@ -125,6 +134,8 @@ p.home {
 .paper4{
     display:flex;
     flex-direction: column;
+    flex-wrap:wrap;
+    padding:1rem 0 0 0;
     margin: 0 auto;
     max-width:640px;
     max-height:360px;
