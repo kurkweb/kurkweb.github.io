@@ -141,7 +141,7 @@ h2 {
     display:flex;
     justify-content: center;
     max-width:360px;
-    padding-top: 1rem;
+    padding-top:2rem;
 }
 
 hr {
