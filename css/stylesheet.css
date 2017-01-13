@@ -19,20 +19,29 @@ html {
 
 body {
   display:flex;
-  flex-direction:row;
   flex-wrap:wrap;
   justify-content:center;
   width: 100%;
-  padding:5px 0;
+  padding:0 0 2rem 0;
   margin:0 auto;
   background: #D6FFF5;
   font-size:62.5%;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin:0;
+    padding:0;
+    width:100%;
+    height: 100%;
+}
+
 .paper {
   display:flex;
   flex-direction:column;
-  margin:1rem 1rem 4rem 2rem;
+  margin:1rem 1rem 1rem 1rem;
   max-width:300px;
   max-height:50rem;
   box-shadow:6px 0px 0px 0px rgba(50, 50, 90, .1);
@@ -119,7 +128,7 @@ h2 {
     color:#FF5A0D;
     padding-top: 25px;
     margin: 0 auto;
-    width:100%;
+    width:360px;
     height:125px;
     text-align: center;
 }
@@ -128,8 +137,11 @@ h2 {
     padding-top:10px;
 }
 
-.contact {
-    float: right;
+#contact{
+    display:flex;
+    justify-content: center;
+    max-width:360px;
+    padding-top: 1rem;
 }
 
 hr {
