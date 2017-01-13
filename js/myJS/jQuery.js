@@ -9,3 +9,5 @@ function main() {
   $('.paper_design').fadeIn(1660);
   $('.paper').fadeIn(1660);
 }
+
+$('paper2').hide().fadeIn('slow');
