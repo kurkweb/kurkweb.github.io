@@ -16,7 +16,6 @@ html {
   padding:0;
   margin:0 auto;
   width: 100%;
-  height: 100vh;
 }
 
 .pattern{
@@ -33,9 +32,6 @@ html {
 }
 
 body {
-  display:flex;
-  flex-wrap:wrap;
-  justify-content:center;
   width: 100%;
   height:100%;
   padding:0;
@@ -44,20 +40,23 @@ body {
   font-size:62.5%;
 }
 
-p.title{
-    text-decoration: underline;
-    margin:0 auto;
-    padding:1.2rem 0 2rem 0;
-    font-size: 4rem;
-    width:100%;
-}
-
 .pageTitles {
-    padding-top: 2rem;
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    padding-top:1rem;
     margin: 0 auto 1rem 0;
     width:100%;
     height:125px;
     text-align: center;
+}
+
+p.title{
+    font-weight: bold;
+    margin:0 auto;
+    padding:1.2rem 0 2rem 0;
+    font-size: 3rem;
+    width:100%;
 }
 
 p.home {
@@ -73,23 +72,9 @@ p.home {
     flex-wrap:wrap;
     min-width: 360px;
     margin:0 auto;
-    padding:0 0 1rem 0;
+    padding:0rem 0rem 1rem 0rem;
     width:100%;
-    height: 76vh;
-    box-shadow: 0rem 2rem 0px 0px rgba(255, 90, 13, .5);
     z-index: 100;
-}
-
-#line {
-    z-index: -100;
-    position: absolute;
-    align-items: flex-end;
-    width:100%;
-    height:29.6%;
-    border-bottom:30rem solid #FF5A0D;
-    margin:0;
-    padding:0;
-    opacity:.2;
 }
 
 .paper {
@@ -113,12 +98,10 @@ p.home {
 .paper2{
   display:flex;
   flex-direction:column;
-  flex-wrap:wrap;
   margin:1rem 2rem 2rem 2rem;
   width:300px;
   height:150px;
   box-shadow:0px 6px 0px 0px rgba(255, 90, 13, 1);
-  transition:.1s ease;
   background:white;
   text-align:center;  
 }
@@ -299,4 +282,16 @@ p {
 	.paper{
 		width:300px;
 	}
+    
+    .Behance{
+        display: none;
+    }
+    
+    .Instagram{
+        display: none;
+    }
+    
+    .LinkedIn{
+        display: none;
+    }
 }
