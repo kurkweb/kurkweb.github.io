@@ -16,13 +16,8 @@ html {
   padding:0;
   margin:0 auto;
   width: 100%;
-
-
-background: #606c88; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #606c88 , #3f4c6b); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #606c88 , #3f4c6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
-          
+  background: -webkit-linear-gradient(top,#00537E 10%,#3AA17E 90%); 
+  background: linear-gradient(top,#00537E 10%,#3AA17E 90%);                 
 }
 
 .pattern{
@@ -74,7 +69,7 @@ p.home {
 }
 
 p.home a{
-    padding:.8rem;
+    padding:.7rem;
 }
 
 .container {
@@ -230,7 +225,6 @@ a {
 
 a:hover {
   color:#FF5A0D;
-  border-bottom:1px solid #FF5A0D;
   text-align: center;
   box-shadow: 3px 3px 3px rgba(50, 50, 90, .2), 0 3px 4px rgba(0, 0, 0, .07);
   transform: translateY(-5px);
@@ -452,7 +446,7 @@ p.home a{
     }
     
     .paper2{
-        height:auto;
+        height:150px;
         margin: 1rem;
         box-shadow:0px 3px 0px 0px rgba(255, 90, 13, 1);
     }
