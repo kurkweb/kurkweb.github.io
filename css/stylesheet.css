@@ -8,7 +8,7 @@ $color-shadow:transparentize(#303336, .9);
 
 * {
   user-select:none;
-  transition:.3s ease;
+  transition: 0.3s ease;
   -webkit-font-smoothing:antialiased;
 }
 
@@ -249,34 +249,27 @@ a.noStyle:hover{
 }
 
 a.button{
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   cursor: pointer;
   text-transform: uppercase;
   text-decoration: none;
   line-height: 20px;
   letter-spacing: .07rem;
-  border-radius: 1px;
   background: white;
   color:#aaa;
   font-weight: bold;
   font-family:$san-serif;
   font-size:.8rem;
+  margin: 0 auto;
   padding: 0.5rem 1rem;
-  transition: transform .4s ease;
+  width: 50%;
+  transition:0.5s ease;
 }
 
 a.button:hover{
-  font-size:.8rem;
-  border-radius:10px;
-  color:#FF5A0D;
-  margin:0;
-  padding: 0.48rem 1.5rem;
-  transform: translateY(-2px);
-  transform: translateX(-4px);
-}
-
-a.button:active{
-  box-shadow:0 20px 20px rgba(0, 0, 0, .8);
+    color:#FF5A0D;
+    width:60%;
 }
 
 p{
