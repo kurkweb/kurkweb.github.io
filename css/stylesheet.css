@@ -62,7 +62,7 @@ p.title{
     padding:1rem 0 2rem 0;
     font-size: 4.5rem;
     width:100%;
-    color: #FFF8B5;
+    color: #6795FF;
 }
 
 p.home{
@@ -76,6 +76,7 @@ p.home{
 
 p.home a{
     padding:.7rem;
+    color: #B4CAFF;
 }
 
 .container{
