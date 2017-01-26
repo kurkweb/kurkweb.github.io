@@ -156,10 +156,10 @@ p.home a{
 
 .flex-video{
   height: 0;
-  margin-bottom: 0.88889rem;
+  margin-bottom: 1rem;
   overflow: hidden;
   margin-top: 1rem;
-  padding-bottom: 56%;
+  padding-bottom: 50%;
   position: relative;
 }
 
