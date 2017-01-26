@@ -18,7 +18,7 @@ html{
   margin:0 auto;
   width: 100%;
   height: 100%;
-  background: #859398; 
+  background: #333333; 
 }
 
 .pattern{
@@ -26,7 +26,7 @@ html{
   padding:0;
   margin:0;
   width: 100%;
-  background: #3f4c6b;
+  background: #00ccd6;
 }
 
 .pattern2{
@@ -34,7 +34,7 @@ html{
     padding:0;
     margin:0;
     width:100%;
-    background: #606c88;
+    background: #00ccd6;
 }
 
 body{
@@ -61,7 +61,7 @@ p.title{
     padding: 1rem 0 2rem 0;
     font-size: 4.5rem;
     width:100%;
-    color: #6795FF;
+    color: #efefef;
 }
 
 p.home{
@@ -75,7 +75,7 @@ p.home{
 
 p.home a{
     padding:.7rem;
-    color: #B4CAFF;
+    color: #ffd900;
 }
 
 .container{
@@ -88,7 +88,7 @@ p.home a{
     width:62.5rem;
     height:100%;
     z-index: 100;
-    background: #283048;
+    background: #424242;
     background-repeat: no-repeat;
 }
 
@@ -98,7 +98,7 @@ p.home a{
   margin:1rem 1rem 0 1rem;
   max-width:300px;
   max-height:50rem;
-  box-shadow:6px 6px 0px 0px rgba(50, 50, 90, .2);
+  box-shadow:0px 6px 0px 0px rgba(51,51,51, 1);
   transition:.1s ease;
   background:white;
   text-align:center;
@@ -127,7 +127,7 @@ p.home a{
   margin:1rem 1rem 1rem 1rem;
   width:300px;
   height:150px;
-  box-shadow:0px 6px 0px 0px rgba(255, 90, 13, 1);
+  box-shadow:0px 6px 0px 0px rgba(51,51,51,1);
   background:white;
   text-align:center;  
 }
@@ -140,7 +140,7 @@ p.home a{
     margin: 1rem 1rem;
     width:100%;
     height:auto;
-    box-shadow:0px 6px 0px 0px rgba(255, 90, 13, 1);
+    box-shadow:0px 6px 0px 0px rgba(51,51,51,1);
 }
 
 .paper4{
@@ -151,7 +151,7 @@ p.home a{
     margin: 0 auto;
     width:640;
     height:auto;
-    box-shadow:0px 6px 0px 0px rgba(255, 90, 13, 1);
+    box-shadow:0px 6px 0px 0px rgba(51,51,51,1);
 }
 
 .flex-video{
@@ -199,7 +199,7 @@ h1{
   line-height: 2.8rem;
   margin: 0 auto;
   width:250px;
-  color: #59FFE2;
+  color: #00ccd6;
 }
 
 h2{
@@ -231,7 +231,7 @@ hr{
     margin: 0 auto;
     padding: .5rem;
     width:250px;
-	color:#FF5A0D;
+	color:#ffd900;
 }
 
 a{
@@ -244,7 +244,7 @@ a{
 }
 
 a:hover{
-  color:#FF5A0D;
+  color:#ffd900;
   text-align: center;
   box-shadow: 3px 3px 3px rgba(50, 50, 90, .2), 0 3px 4px rgba(0, 0, 0, .07);
   transform: translateY(-5px);
@@ -288,7 +288,7 @@ a.button{
 }
 
 a.button:hover{
-    color:#FF5A0D;
+    color:#ffd900;
     width:60%;
 }
 
