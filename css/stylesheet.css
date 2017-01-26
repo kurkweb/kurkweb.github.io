@@ -80,6 +80,7 @@ p.home a{
 }
 
 .container{
+    position: absolute;
     display: flex;
     justify-content:flex-start;;
     flex-wrap:wrap;
