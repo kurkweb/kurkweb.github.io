@@ -84,7 +84,7 @@ p.home a{
     height: 100%;
     position: relative;
     display: flex;
-    justify-content:flex-start;
+    justify-content:center;
     flex-wrap:wrap;
 }
 
