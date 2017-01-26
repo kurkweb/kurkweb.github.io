@@ -2,12 +2,8 @@ $(document).ready(main);
 
 function main() {
 
-  $('.paper').hide();
-  $('.paper_design').hide();
+  $('.fade').hide();
 	"use strict"
  
-  $('.paper_design').fadeIn(1660);
-  $('.paper').fadeIn(1660);
+  $('.fade').fadeIn(1660);
 }
-
-$('paper2').hide().fadeIn('slow');
