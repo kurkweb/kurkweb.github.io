@@ -58,7 +58,7 @@ body{
 p.title{
     font-weight: bold;
     margin:0 auto;
-    padding:1rem 0 2rem 0;
+    padding: 1rem 0 2rem 0;
     font-size: 4.5rem;
     width:100%;
     color: #6795FF;
@@ -86,6 +86,7 @@ p.home a{
     margin:0 auto;
     padding:0 0 1rem 0;
     width:62.5rem;
+    height:100%;
     z-index: 100;
     background: #283048;
     background-repeat: no-repeat;
@@ -362,7 +363,7 @@ p.title{
     font-weight: bold;
     margin:0 auto;
     padding:1.2rem 0 1rem 0;
-    font-size: 3rem;
+    font-size: 2rem;
     width:100%;
 }
 
