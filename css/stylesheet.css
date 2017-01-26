@@ -13,13 +13,12 @@ $color-shadow:transparentize(#303336, .9);
 }
 
 html{
+  position: absolute;
   padding:0;
   margin:0 auto;
   width: 100%;
-  background: #283048; /* fallback for old browsers */
-  background: -webkit-linear-gradient(bottom, #283048 , #859398); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(bottom, #283048 , #859398); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
+  height: 100%;
+  background: #859398; 
 }
 
 .pattern{
@@ -39,11 +38,11 @@ html{
 }
 
 body{
+  position: absolute;
   width: 100%;
   padding:0;
   margin:0 auto;
   font-size:62.5%;
-  
 }
 
 .pageTitles{
@@ -80,7 +79,7 @@ p.home a{
 }
 
 .container{
-    position: absolute;
+    position: relative;
     display: flex;
     justify-content:flex-start;;
     flex-wrap:wrap;
@@ -88,9 +87,8 @@ p.home a{
     padding:0 0 1rem 0;
     width:62.5rem;
     z-index: 100;
-    background: #283048; /* fallback for old browsers */
-    background: -webkit-linear-gradient(top, #283048 , #859398); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(top, #283048 , #859398); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #283048;
+    background-repeat: no-repeat;
 }
 
 .paper{
