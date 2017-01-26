@@ -147,11 +147,31 @@ p.home a{
     display:flex;
     flex-direction: column;
     flex-wrap:wrap;
-    padding:1rem 0 0 0;
+    padding:0;
     margin: 0 auto;
     width:640;
     height:auto;
     box-shadow:0px 6px 0px 0px rgba(255, 90, 13, 1);
+}
+
+.flex-video{
+  height: 0;
+  margin-bottom: 0.88889rem;
+  overflow: hidden;
+  margin-top: 1rem;
+  padding-bottom: 56%;
+  position: relative;
+}
+
+.flex-video iframe,
+.flex-video object,
+.flex-video embed,
+.flex-video video{
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
 }
 
 img{
