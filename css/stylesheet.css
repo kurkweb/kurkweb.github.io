@@ -387,7 +387,7 @@ p{
     
     p.home a{
         font-family: 'Titillium Web', saserif;
-        width:1%;
+        width:15.5%;
         font-size: 1rem;
         font-weight: bold;
         letter-spacing: 1.5px;
@@ -412,6 +412,15 @@ p{
 /* @MEDIA MAX 500px *//* @MEDIA MAX 500px *//* @MEDIA MAX 500px *//* @MEDIA MAX 500px *//* @MEDIA MAX 500px *//* @MEDIA MAX 500px *//* @MEDIA MAX 500px *//* @MEDIA MAX 500px *//* @MEDIA MAX 500px */
 
 @media screen and (max-width: 500px){
+    
+    .pageTitles{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin: 0 auto;
+    width:100%;
+    text-align: center;
+}
     
     p.home a{
         font-family: 'Titillium Web', saserif;
