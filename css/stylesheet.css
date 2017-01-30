@@ -492,7 +492,6 @@ body{
     p.home a:hover{
     background-color: #ffd900;
     color: #424242;
-    transform: translateY(-3px);
     letter-spacing: 3px;
 }
     
@@ -523,11 +522,27 @@ body{
     }
     
     .poster h1{
-        padding-top:2rem;
+        padding:0 0 0 0.5rem;
+        width: 85%;
+        float:left;
+        font-size: 2.4268rem;
+    }
+    
+    .poster p{
+        width: 230px;
     }
     
     .poster h1:hover{
         transform: none;
+    }
+    
+    #header_Bio{
+        width:80%;
+        font-size: 2.4268rem;
+    }
+    
+    .Bio_Poster p{
+        width: 230px;
     }
     
     .paper2{
