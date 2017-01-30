@@ -104,23 +104,9 @@ p.home a:hover{
     display: flex;
     justify-content:flex-start;
     flex-wrap:wrap;
-    margin:0 auto;
-    padding:0;
+    margin: 0 auto;
     width:56.9rem;
     height:100%;
-    z-index: 100;
-    background: #424242;
-}
-
-.container2{
-    position: relative;
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    margin:0 auto;
-    padding: 0;
-    width: 56.9rem;
-    height: 96vh;
     z-index: 100;
     background: #424242;
 }
@@ -201,7 +187,7 @@ img{
   margin-bottom: 1rem;
   overflow: hidden;
   margin-top: 1rem;
-  padding-bottom: 50%;
+  padding-bottom: 65%;
   position: relative;
 }
 
@@ -439,6 +425,11 @@ p{
     letter-spacing: 3px;
 }
     
+    .paper2{
+        width:290px;
+        height:150px;
+    }
+    
 }
 
 /* @MEDIA MAX 320px *//* @MEDIA MAX 320px *//* @MEDIA MAX 320px */
@@ -452,7 +443,6 @@ body{
 		display:flex;
 		flex-direction:column;
 		justify-content: space-between;
-		width:320px;
 	}
 .paper{
 		width:300px;
@@ -475,33 +465,42 @@ body{
     justify-content:center;
     flex-wrap:wrap;
     margin:0 auto;
-    padding:0rem 0rem 2rem 0rem;
-    width:320px;
+    padding:0;
+    width:100%;
     z-index: 100;
 }
     
 .pageTitles{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
     margin: 0 auto;
     width:100%;
+    text-align: center;
 }
+    
+    p.home a{
+        font-family: 'Titillium Web', saserif;
+        width:100%;
+        font-size: 1rem;
+        font-weight: bold;
+        letter-spacing: 1.5px;
+        color: #efefef;
+        transition: ease .6s;
+    }
 
-p.title{
-    display: none;
-}
-
-p.home{
-    display: flex;
-    justify-content:flex-start;
-    width: 320px;
-    height: 125px;
-    margin:0 1rem;
-    padding: 0;
+    p.home a:hover{
+    background-color: #ffd900;
+    color: #424242;
+    transform: translateY(-3px);
+    letter-spacing: 3px;
 }
     
 .paper{
   display:flex;
   flex-direction:column;
-  margin:1rem 1rem 1rem 1rem;
+  margin:0.5rem 0 0 0;
+  padding: 0;
   max-width:300px;
   max-height:50rem;
   box-shadow:none;
@@ -509,6 +508,11 @@ p.home{
   background:white;
   text-align:center;
 }
+    
+    .paper:hover{
+        box-shadow: none;
+        transform: none;
+    }
     
     .paper a img{
         display: none;
@@ -522,25 +526,20 @@ p.home{
         padding-top:2rem;
     }
     
+    .poster h1:hover{
+        transform: none;
+    }
+    
     .paper2{
-        height:150px;
-        margin: 1rem;
-        box-shadow:0px 3px 0px 0px rgba(255, 90, 13, 1);
+        height: 125px;
+        margin: 0.5rem;
+        box-shadow:0px 6px 0px 0px rgba(51,51,51,1);
     }
     
     .paper3{
-        margin:1rem;
-        height:200px;
-        box-shadow:0px 3px 0px 0px rgba(255, 90, 13, 1);
-    }
-    
-    .paper4{
-        margin:1rem;
-        box-shadow:0px 3px 0px 0px rgba(255, 90, 13, 1);
-    }
-    
-    .paper5 iframe{
-        width:320px;
+        margin:0.5rem;
+        height:auto;
+        box-shadow:0px 6px 0px 0px rgba(51,51,51,1);
     }
     
 }
