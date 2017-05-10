@@ -59,11 +59,12 @@ a{
 }
 
 a:hover{
-  color:#ffd900;
+  color:#00ccd6;
   text-align: center;
 }
 
 p.home{
+    font-family: 'Titillium Web',sans-serif;
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
@@ -74,20 +75,23 @@ p.home{
 }
 
 p.home a{
-        font-family: 'Titillium Web',sans-serif;
         width:8.8%;
         font-size: .6rem;
         font-weight: bold;
         letter-spacing: 1.5px;
         color: #efefef;
         transition: ease .6s;
-        opacity: 0.1;
+        opacity: 0.6;
     }
 
 p.home a:hover{
-    color: #ffd900;
+    color: #00ccd6;
     letter-spacing: 3px;
     opacity: 1;
+}
+
+#email {
+    color:#00ccd6;
 }
 
 .fade{
@@ -148,6 +152,7 @@ img{
 
 .poster p{
     font-family: 'Titilium Web', sans-serif;
+    color:#333333;
 }
 
 .paper2{
@@ -209,8 +214,11 @@ img{
 }
 
 .Bio_Poster p{
+    padding-top: 1rem;
     font-family: 'Titilium Web', sans-serif;
     font-weight: normal;
+    color:#333333;
+    display: flex;
 }
 
 .poster{
@@ -233,7 +241,7 @@ h2{
   color: #A0A6AB;
   letter-spacing: 2px;
   text-transform: uppercase;
-  font-family: $san-serif;
+  font-family: $sans-serif;
   font-weight: 500;
   margin-bottom: 10px;
 }
@@ -257,7 +265,7 @@ hr{
     margin: 0 auto;
     padding: .5rem 0 0 0;
     width:250px;
-	color:#ffd900;
+	color:#333333;
 }
 
 a.noStyle{
@@ -286,7 +294,7 @@ a.button{
   line-height: 20px;
   letter-spacing: .07rem;
   background: white;
-  color: #aaa;
+  color: #00ccd6;
   font-weight: bold;
   font-family: 'Titillium Web',san-serif;
   font-size: 0.8rem;
@@ -309,7 +317,6 @@ p{
   display: flex;
   justify-content: center;
   text-align:left;
-  color: #AAAAAA;
   font-family: $serif;
   font-weight: 400;
   font-size: .9rem;
@@ -372,7 +379,7 @@ p{
 }
     
     p.home a{
-        font-family: 'Titillium Web', saserif;
+        font-family: 'Titillium Web',sans-serif;
         width:15.5%;
         font-size: 1rem;
         font-weight: bold;
@@ -382,8 +389,7 @@ p{
     }
 
     p.home a:hover{
-    background-color: #ffd900;
-    color: #424242;
+    color: #00ccd6;
     transform: translateY(-3px);
     letter-spacing: 3px;
 }
@@ -419,7 +425,7 @@ p{
     }
 
     p.home a:hover{
-    background-color: #ffd900;
+    background-color: #00ccd6;
     color: #424242;
     transform: translateY(-3px);
     letter-spacing: 3px;
