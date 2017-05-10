@@ -115,6 +115,51 @@ p.home a:hover{
     background: #424242;
 }
 
+.paperBio{
+    display: flex;
+    flex-direction: row;
+    margin:0 auto;
+    width: 900px;
+    height:300px;
+    background: white;
+    text-align: justify;
+    border-bottom: solid 1rem black;
+}
+
+#Bio_Image{
+    width:300px;
+    height:300px;
+}
+
+.Bio_Poster{
+  background:white;
+  border-radius:0px;
+  height:100%;
+  width: 100%;
+}
+
+#header_Bio{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: $serif;
+    text-align: left;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    line-height: 2.5rem;
+    margin: 0 auto;
+    padding: .5rem 0 0 0;
+    width:250px;
+	color:#333333;
+}
+
+.Bio_Poster p{
+    font-family: 'Titilium Web', sans-serif;
+    font-weight: normal;
+    color:#333333;
+    display: flex;
+}
+
 .paper{
   display: flex;
   flex-direction: column;
@@ -123,7 +168,7 @@ p.home a:hover{
   max-height: 50rem;
   transition: .1s ease;
   background: white;
-  text-align: center;
+  text-align: justify;
 }
 
 .paper:hover{
@@ -160,7 +205,6 @@ img{
   margin:1rem 1rem 1rem 1rem;
   width:300px;
   height:150px;
-  box-shadow:0px 6px 0px 0px rgba(51,51,51,1);
   background:white;
   text-align:center;  
 }
@@ -173,19 +217,20 @@ img{
     margin: 1rem 1rem;
     width:100%;
     height:auto;
-    box-shadow:0px 6px 0px 0px rgba(51,51,51,1);
 }
 
 .paper4{
     display:flex;
     flex-direction: column;
     flex-wrap:wrap;
-    padding:0;
+    padding-top:1rem;
+    padding-bottom:1rem;
     margin: 0 auto;
     width:640;
     height:auto;
-    box-shadow:0px 6px 0px 0px rgba(51,51,51,1);
 }
+
+/*
 
 .flex-video{
   height: 0;
@@ -207,19 +252,7 @@ img{
   left: 0;
 }
 
-.Bio_Poster{
-  background:white;
-  border-radius:0px;
-  height:100%;
-}
-
-.Bio_Poster p{
-    padding-top: 1rem;
-    font-family: 'Titilium Web', sans-serif;
-    font-weight: normal;
-    color:#333333;
-    display: flex;
-}
+*/
 
 .poster{
   height:100%;
@@ -241,6 +274,7 @@ h2{
   color: #A0A6AB;
   letter-spacing: 2px;
   text-transform: uppercase;
+  text-align: center;
   font-family: $sans-serif;
   font-weight: 500;
   margin-bottom: 10px;
@@ -251,21 +285,6 @@ hr{
   padding-top: 1rem;
   border: 0;
   border-bottom: 1px solid #E6E9EC;
-}
-
-#header_Bio{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    font-family: $serif;
-    text-align: left;
-    font-size: 3rem;
-    letter-spacing: 1px;
-    line-height: 2.5rem;
-    margin: 0 auto;
-    padding: .5rem 0 0 0;
-    width:250px;
-	color:#333333;
 }
 
 a.noStyle{
@@ -364,7 +383,7 @@ p{
     justify-content:center;
     flex-wrap:wrap;
     margin:0 auto;
-    padding:0rem 0rem 2rem 0rem;
+    padding:0rem 0rem 0rem 0rem;
     width:100%;
     z-index: 100;
 }
@@ -399,6 +418,50 @@ p{
     padding:0;
     margin:0;
 }
+.paperBio{
+    display: flex;
+    flex-direction: row;
+    margin:0 auto;
+    max-width: 600px;
+    min-height:300px;
+    background: white;
+    text-align: justify;
+    border-bottom: solid 1rem black;
+}
+
+#Bio_Image{
+    width:300px;
+    height:300px;
+}
+
+.Bio_Poster{
+  background:white;
+  border-radius:0px;
+  height:300px;
+  width: 100%;
+}
+
+#header_Bio{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: $serif;
+    text-align: left;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    line-height: 2.5rem;
+    margin: 0 auto;
+    padding: .5rem 0 0 0;
+    width:250px;
+	color:#333333;
+}
+
+.Bio_Poster p{
+    font-family: 'Titilium Web', sans-serif;
+    font-weight: normal;
+    color:#333333;
+    display: flex;
+}
 }
 
 /* @MEDIA MAX 500px *//* @MEDIA MAX 500px *//* @MEDIA MAX 500px *//* @MEDIA MAX 500px *//* @MEDIA MAX 500px *//* @MEDIA MAX 500px *//* @MEDIA MAX 500px *//* @MEDIA MAX 500px *//* @MEDIA MAX 500px */
@@ -415,7 +478,7 @@ p{
 }
     
     p.home a{
-        font-family: 'Titillium Web', saserif;
+        font-family: 'Titillium Web', sans-serif;
         width:100%;
         font-size: 1rem;
         font-weight: bold;
@@ -435,6 +498,52 @@ p{
         width:290px;
         height:150px;
     }
+    
+.paperBio{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin:0 auto;
+    width: 300px;
+    height:600px;
+    background: white;
+    text-align: justify;
+    border-bottom: solid 1rem black;
+}
+
+#Bio_Image{
+    width:300px;
+    height:300px;
+}
+
+.Bio_Poster{
+  background:white;
+  border-radius:0px;
+  height:300px;
+  width: 100%;
+}
+
+#header_Bio{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: $serif;
+    text-align: left;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    line-height: 2.5rem;
+    margin: 0 auto;
+    padding: .5rem 0 0 0;
+    width:250px;
+	color:#333333;
+}
+
+.Bio_Poster p{
+    font-family: 'Titilium Web', sans-serif;
+    font-weight: normal;
+    color:#333333;
+    display: flex;
+}
     
 }
 
@@ -486,7 +595,7 @@ body{
 }
     
     p.home a{
-        font-family: 'Titillium Web', saserif;
+        font-family: 'Titillium Web', sans-serif;
         width:100%;
         font-size: 1rem;
         font-weight: bold;
