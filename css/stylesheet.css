@@ -227,9 +227,11 @@ img{
     flex-wrap:wrap;
     padding-top:1rem;
     padding-bottom:1rem;
-    margin: 0 auto;
-    width:640;
-    height:auto;
+    padding-right: 0;
+    padding-left: 0;
+    margin: 0 1rem;
+    width:auto;
+    height: 360px;
 }
 
 /*
