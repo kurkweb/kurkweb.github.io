@@ -63,17 +63,17 @@ p.home{
 
 p.home a{
         width:8.8%;
-        font-size: .6rem;
+        font-size: .75rem;
         font-weight: bold;
         letter-spacing: 1.5px;
-        color: #efefef;
+        color: #42D6DD;
         transition: ease .6s;
         opacity: 0.6;
     }
 
 p.home a:hover{
     color: #00ccd6;
-    letter-spacing: 3px;
+    transform: translateY(-3px);
     opacity: 1;
 }
 
@@ -145,7 +145,7 @@ p.home a:hover{
     padding:0;
     margin:0 auto;
 }
-
+/*
 .paper{
   display: flex;
   flex-direction: column;
@@ -161,6 +161,7 @@ p.home a:hover{
   box-shadow: 0px 0px 0px 10px rgba(255,217,0, 1);
   transform: translateX(-5px);
 }
+*/
 
 img{
   padding:0;
@@ -186,11 +187,22 @@ img{
     color:#333333;
 }
 
+#year{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: .2rem;
+    width: 600px;
+}
+
 .paper2{
   display:flex;
-  margin:1rem 1rem 1rem 1rem;
-  width:300px;
-  height:150px;
+  width:600px;
+  height:300px;
+  margin: 1rem 0 1rem 0;
   background:white;
   text-align:center;  
 }
@@ -209,13 +221,10 @@ img{
     display:flex;
     flex-direction: column;
     flex-wrap:wrap;
-    padding-top:1rem;
-    padding-bottom:1rem;
-    padding-right: 0;
-    padding-left: 0;
-    margin: 0 1rem;
+    margin:1rem 0 1rem 0;
     width:auto;
-    height: 360px;
+    height: 300px;
+    width: 600px;
 }
 
 /*
@@ -385,20 +394,20 @@ p{
     text-align: center;
 }
     
-    p.home a{
-        font-family: 'Titillium Web',sans-serif;
-        width:15.5%;
-        font-size: 1rem;
+   p.home a{
+        width:8.8%;
+        font-size: .75rem;
         font-weight: bold;
         letter-spacing: 1.5px;
-        color: #efefef;
+        color: #42D6DD;
         transition: ease .6s;
+        opacity: 0.6;
     }
 
-    p.home a:hover{
+p.home a:hover{
     color: #00ccd6;
     transform: translateY(-3px);
-    letter-spacing: 3px;
+    opacity: 1;
 }
 
     p.home{
@@ -465,21 +474,20 @@ p{
     text-align: center;
 }
     
-    p.home a{
-        font-family: 'Titillium Web', sans-serif;
-        width:100%;
-        font-size: 1rem;
+p.home a{
+        width:8.8%;
+        font-size: .75rem;
         font-weight: bold;
         letter-spacing: 1.5px;
         color: #efefef;
         transition: ease .6s;
+        opacity: 0.6;
     }
 
-    p.home a:hover{
-    background-color: #00ccd6;
-    color: #424242;
+p.home a:hover{
+    color: #00ccd6;
     transform: translateY(-3px);
-    letter-spacing: 3px;
+    opacity: 1;
 }
     
     .paper2{
