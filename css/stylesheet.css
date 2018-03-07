@@ -196,6 +196,7 @@ img{
     font-family: sans-serif;
     letter-spacing: .2rem;
     width: 600px;
+
 }
 
 .paper2{
@@ -221,7 +222,7 @@ img{
     display:flex;
     flex-direction: column;
     flex-wrap:wrap;
-    margin:1rem 0 0 0;
+    margin: 1rem 1rem;
     width:auto;
     height: auto;
     width: 600px;
