@@ -218,6 +218,13 @@ img{
     height:auto;
 }
 
+.paper3 p{
+    color: #FFF;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 0 0 0 1em;
+}
+
 .paper4{
     display:flex;
     flex-direction: column;
