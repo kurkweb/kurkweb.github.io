@@ -24,7 +24,10 @@ body{
   margin:0 auto;
   font-size:62.5%;
 }
-
+.typewriter{
+    color: white;
+    width: 75%;
+}
 .pageTitles{
     display:flex;
     justify-content: flex-start;
