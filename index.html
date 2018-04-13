@@ -1,105 +1,408 @@
 <!DOCTYPE html>
+
 <html>
-<head>
-	
-	<title>kurkweb</title>
-	
-	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-    
-    <link href="https://fonts.googleapis.com/css?family=Bitter|Titillium+Web" rel="stylesheet">
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
-</head>
-<body>
-    
-<div class="container">
-    
- <h1 class="pageTitles">
-        <p class="home">
-            <a href="index.html">Home</a>
-            <a href="logo.html">Logos</a>
-            <a href="stickers.html">Stickers</a>
-            <a href="drawings.html">Drawings</a>
-            <a href="websites.html">Websites</a>
-        </p>
-</h1>
-    
-<div class="fade">
-    
-    <p id="year">2018</p>
-    <br><p class="typewriter">Under construction from IE6 please take a look under chrome browser. 4/10/2018</p>
-    
-<div class="paperBio">
-    <img src="images/Me.jpg" id="Bio_Image">
-	<div class="Bio_Poster">
-		<h2>Bio</h2>
-		<h1 id="header_Bio">Vassil I. K.</h1>
-		<hr>
-		<p>Hello World, nice to meet you.  I am a Web Coder &amp; Graphic Designer.  There is so much more to say.  Let's create something together that is functional, simple &amp; beautiful for the world to see.  To arrange a meeting with me please send me an e-mail: <p id="email">kurkweb@gmail.com</p></p>
-	</div>
-</div>
-<!--	
-<div class="paper paper_fade2">
-    <a href="logo.html" class="noStyle"></a>
-	<div class="poster">
-		<h2>Logo Design</h2>
-		<h1>Logo Design</h1>
-		<hr>
-		<p>What does it need to mean?  You are the ship, bring the lines together and please do set sail off to the great sea, with no fear.</p>
-		<a href="logo.html" class="button">More</a>
-		<div class="space"></div>
-	</div>
-</div>
-    
-<div class="paper paper_fade2">
-    <a href="cards.html" class="noStyle"></a>
-	<div class="poster">
-		<h2>Sticker Design</h2>
-		<h1>Sticker Design</h1>
-		<hr>
-		<p>Here to say something about who you are, and I am here to say what you want to be, if you have decided to finally grow up that is.</p>
-		<a href="logo.html" class="button">More</a>
-		<div class="space"></div>
-	</div>
-</div>
-    
-<div class="paper paper_fade2">
-    <a href="drawings.html" class="noStyle"></a>
-	<div class="poster">
-  		<h2>Drawing Board</h2>
-  		<h1>Drawing Board</h1>
-  		<hr>
-  		<p>Let the hand do it's own.  The mind knows how to connect the pieces of your soul. It explains and grows as it goes beyond.</p>
-  		<a href="drawings.html" class="button">More</a>
-		<div class="space"></div>
-	</div>
-</div>
-    
-<div class="paper paper_fade2">
-    <a href="drum.html" class="noStyle"></a>
-	<div class="poster">
-  		<h2>Javascript projects</h2>
-  		<h1>JavaScript Projects</h1>
-  		<hr>
-  		<p>This is the space for the accumilation of design principles and the computer.  A seemingly never ending intertwining of man and machine.</p>
-  		<a href="drum.html" class="button">More</a>
-		<div class="space"></div>
-	</div>
-</div>
 
--->
+    <head>
     
-</div>
-</div>
-</div>
+        <title>kurkweb-2.0</title>
+        
+        <!-- // == Text Reader == \\ -->
+        <meta charset="utf-8">
+        
+        <!-- // == View Port == \\ -->
+        <meta name="viewport" content="width=width-device, initial-scale= 1">
+        
+        <!-- // == Font Selections == \\ -->
+        <link href="https://fonts.googleapis.com/css?family=Podkova:600,700,800|Roboto:300" rel="stylesheet">
+        
+        <!-- // == BootStrap == \\ -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        
+        <!-- // == Responsive CSS == \\ -->
+        <link rel="stylesheet" type="text/css" href="css/responsive.css">
+        
+        <!-- // == StyleSheet == \\ -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    </head>
 
-    <script src="js/simplebar.js"></script>
+    <body>
+        
+        <!-- Navigation & Header -->
+        <header class="conatiner header-container" id="HOME">
 
-    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-  
-  	<script src="js/myJS/jQuery.js"></script>
-	
-</body>
+            <nav class="navbar navbar-default navbar-fixed-top">
+              
+                <div class="container head-container">
+                  
+                    <div class="navbar-header">
+                        
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#loso-navbar-collapse-1" aria-expanded="false">
+                          
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                          
+                      </button>
+                        
+                    </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="loso-navbar-collapse-1">
+                    
+                    <ul class="nav navbar-nav navbar-right">
+                      
+                        <li><a href="#HOME" class="nav-item">HOME</a></li>
+                      
+                        <li><a href="#LOGOS" class="nav-item">LOGOS</a></li>
+                      
+                        <li><a href="#STICKERS" class="nav-item">STICKERS</a></li>
+                      
+                        <li><a href="#DRAWINGS" class="nav-item">DRAWINGS</a></li>
+                      
+                        <li><a href="#WEBSITES" class="nav-item">WEBSITES</a></li>
+                      
+                    </ul>
+                 
+                </div><!-- /.navbar-collapse -->
+                    
+              </div><!-- /.container-fluid -->
+                
+            </nav>
+            
+            <div class="header-overlay">
+            
+                <div class="row">
+                    
+                    <div class="col-md-4 portfolio-title">
+                
+                        <h1 class="wow fadeInLeft">2018 Portfolio</h1>
+                        
+                        <p>.welcome-to-my-portfolio{ excuse the mess; }</p>
+                        
+                    </div>
+                
+                </div>
+            
+            </div>
+        
+        </header>
+        
+        <!-- LOGOS Section -->
+        <section class="logo-design" id="LOGOS">
+        
+            <div class="container">
+                
+                <h1 class="title-headings">logos</h1>
+                
+                <!-- ROW ONE OF LOGOS -->
+                <div class="row top-row">
+                    
+                    <div class="col-md-4 port-images">
+                        <img src="images/LogoGround/LiteCrewSized2.jpg">
+                    </div>
+                    
+                    <div class="col-md-4 port-images">
+                        <img src="images/LogoGround/RealRydaPresentation2.jpg">
+                    </div>
+                    
+                    <div class="col-md-4 port-images">
+                        <img src="images/LogoGround/Play3.jpg">
+                    </div>
+            
+                </div>
+                
+                <!-- ROW TWO OF LOGOS -->
+                <div class="row">
+                
+                    <div class="col-md-4 port-images">
+                    
+                        <img src="images/LogoGround/EXCELWIRELESS.jpg">
+                    
+                    </div>
+                    
+                    <div class="col-md-4 port-images">
+                    
+                        <img src="images/LogoGround/theOddest.jpg">
+                    
+                    </div>
+                    
+                    <div class="col-md-4 port-images">
+                    
+                        <img src="images/LogoGround/GMBfinal.jpg">
+                    
+                    </div>
+                
+                </div>
+                
+                <!-- ROW THREE OF LOGOS -->
+                <div class="row">
+                
+                    <div class="col-md-4 port-images">
+                    
+                        <img src="images/LogoGround/SodaCitty.jpg">
+                    
+                    </div>
+                    
+                    <div class="col-md-4 port-images">
+                    
+                        <img src="images/LogoGround/tight2.jpg">
+                    
+                    </div>
+                    
+                    <div class="col-md-4 port-images">
+                    
+                        <img src="images/LogoGround/NASCApresentation.jpg">
+                    
+                    </div>
+                
+                </div>
+                
+                <!-- ROW FOUR OF LOGOS -->
+                <div class="row">
+                
+                    <div class="col-md-4 port-images">
+                    
+                        <img src="images/LogoGround/HUGS.jpg">
+                    
+                    </div>
+                    
+                </div>
+                    
+            </div>
+        
+        </section>
+        
+        <!-- STICKERS Section -->
+        <section class="sticker-design" id="STICKERS">
+        
+            <div class="container">
+                
+                <h1 class="title-headings">Stickers</h1>
+                
+                <!-- ROW ONE OF STICKERS -->
+                <div class="row top-row">
+                    
+                    <div class="col-md-4 port-images">
+                        
+                        <img src="images/Stickers/78.jpg">
+                        
+                    </div>
+                    
+                    <div class="col-md-4 port-images">
+                        
+                        <img src="images/Stickers/AntennaSticker.jpg">
+                        
+                    </div>
+                    <div class="col-md-4 port-images">
+                        
+                        <img src="images/Stickers/froggers.jpg">
+                        
+                    </div>
+                    
+                </div>
+                
+                <!-- ROW TWO STICKERS -->
+                <div class="row">
+                
+                    <div class="col-md-4 port-images">
+                    
+                        <img src="images/Stickers/JC%20Panda%208.jpg">
+                    
+                    </div>
+                        
+                    <div class="col-md-4 port-images">
+                    
+                        <img src="images/Stickers/Kendama.png">
+                    
+                    </div>
+                    
+                    <div class="col-md-4 port-images">
+                    
+                        <img src="images/Stickers/KiddDoxx.png">
+                    
+                    </div>
+                
+                </div>
+                
+                <!-- ROW THREE STICKERS -->
+                <div class="row">
+                
+                    <div class="col-md-4 port-images">
+                    
+                        <img src="images/Stickers/sheriffo_final.jpg">
+                    
+                    </div>
+                        
+                    <div class="col-md-4 port-images">
+                    
+                        <img src="images/Stickers/TripleOG_004.jpg">
+                    
+                    </div>
+                    
+                    <div class="col-md-4 port-images">
+                    
+                        <img src="images/Stickers/tWrecked.png">
+                    
+                    </div>
+                
+                </div>
+                
+                <!-- ROW FOUR STICKERS -->
+                <div class="row">
+                
+                    <div class="col-md-4 port-images">
+                    
+                        <img src="images/Stickers/YUM.jpg">
+                    
+                    </div>
+                
+                </div>
+                
+            </div>
+            
+        </section>
+        
+        <!-- DRAWINGS Section -->
+        <section class="drawing-design" id="DRAWINGS">
+        
+            <div class="container">
+                
+                <h1 class="title-headings">DRAWINGS</h1>
+                
+                <!-- ROW ONE OF DRAWINGS -->
+                <div class="row top-row">
+                    
+                    <div class="col-md-12 port-images">
+                        
+                        <img src="images/Illustrations/EndersGame4.jpg">
+                        
+                    </div>
+                    
+                </div>
+                
+                <!-- ROW TWO OF DRAWINGS -->
+                <div class="row">
+                    
+                    <div class="col-md-6 port-images">
+                        
+                        <img src="images/Illustrations/Prince_Panorama1.jpg">
+                        
+                    </div>
+                    
+                    <div class="col-md-6 port-images">
+                        
+                        <img src="images/Illustrations/future_Panorama1.jpg">
+                        
+                    </div>
+                    
+                </div>
+                    
+                <!-- ROW THREE OF DRAWINGS -->
+                <div class="row">
+                    
+                    <div class="col-md-6 port-images">
+                        
+                        <img src="images/Illustrations/SpaceKid.jpg">
+                        
+                    </div>
+                    
+                    <div class="col-md-6 port-images">
+                        
+                        <img src="images/Illustrations/AngryBust.jpg">
+                        
+                    </div>
+                    
+                </div>
+                    
+                <!-- ROW FOUR OF DRAWINGS -->
+                <div class="row">
+                    
+                    <div class="col-md-12 port-images">
+                        
+                        <img src="images/Illustrations/Boogie3.jpg">
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+        </section>
+            
+        <!-- WEBSITE Section -->
+        <section class="website-design" id="WEBSITES">
+            
+            <div class="container">
+                
+                <h1 class="title-headings">WEBSITES</h1>
+            
+                <div class="row top-row">
+                
+                    <div class="col-md-12 port-images">
+                    
+                        <a href="https://stev3jobs.github.io/" target="_blank"><img src="images/websites/steve-bg.JPG"></a>
+                    
+                    </div>
+                    
+                </div>
+                
+                <div class="row top-row">
+                    
+                    <div class="col-md-12 port-images">
+                    
+                        <a href="https://movietype.github.io/" target="_blank"><img src="images/websites/movietype.jpg"></a>
+                    
+                    </div>
+                    
+                </div>
+                
+                <div class="row top-row">
+                    
+                    <div class="col-md-12 port-images">
+                    
+                        <a href="https://vaskokurko.github.io/" target="_blank"><img src="images/websites/loso.jpg"></a>
+                    
+                    </div>
+                    
+                </div>
+            
+            </div>
+            
+        </section>
+        
+        <!-- FOOTER Section -->
+        <footer>
+        
+            <div class="conatiner">
+            
+                <div class="row">
+                
+                    <h1>Thank you for visiting my portfolio</h1>
+                    
+                    <a href="#HOME" id="scroll-to-top">
+                        
+                        <p>top</p>
+                        
+                    </a>
+                
+                </div>
+            
+            </div>
+        
+        </footer>
+    
+        <!-- Bootstrap JavaScript -->
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+        <!-- Add wow js lib -->
+        <script src="js/wow.min.js"></script>
+      
+        <!-- Custom Js -->
+        <script src="js/custom.js"></script>
+    
+    </body>
+    
 </html>
- 
