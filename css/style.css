@@ -15,19 +15,19 @@ body{
     overflow-x: hidden;
 }
 
-#nav{
+#main-nav{
     background: #4717F6!important;
 }
 
-#nav ul{
+#main-nav ul{
     list-style: none;
 }
 
-#nav ul li a{
+#main-nav ul li a{
     color: #F2F2F2;
 }
 
-#nav ul li a:hover{
+#main-nav ul li a:hover{
     color: #0E0B16;
 }
 
