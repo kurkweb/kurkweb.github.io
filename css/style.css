@@ -19,12 +19,24 @@ body{
     background: #4717F6!important;
 }
 
-#main-nav a{
+.bg-me{
+    background: #0E0B16;
+}
+
+.link{
+    color: #F2F2F2;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+.link:hover{
+    text-decoration: none!important;
     color: #F2F2F2;
 }
 
-#logo{
+#kurk{
     font-weight: bold;
+    color: #4717F6!Important;
 }
 
 .home-section{

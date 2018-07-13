@@ -12,6 +12,10 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
 
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+
     <link rel="stylesheet" href="css/style.css">
 
     <title>KURKWEB-2.0</title>
@@ -28,24 +32,35 @@
     <!--  NAVIGATION  -->
     <!-- ///////////////////////////////////////// -->
 
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
-        <div class="container">
-            <div class="navbar-brand" id="logo">KURKWEB</div>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" aria-expanded="false">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item mx-3">
-                        <a href="#LOGOS" class="nav-item">LOGOS</a>
-                    </li>
-                    <li class="nav-item mx-3">
-                        <a href="#WEBSITES" class="nav-item">WEBSITES</a>
-                    </li>
-                </ul>
+    <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-me p-4">
+                <div class="container">
+                    <div class="row">
+                        <h4 class="text-white" id="kurk">KURKWEB</h4>
+                        <span class="text-muted ml-auto mr-5">Toggleable</span>
+                    </div>
+                    <div class="row">
+                        <ul class="navbar-nav mr-auto pt-3">
+                            <li class="nav-item m-3">
+                                <a href="#LOGOS" class="nav-item link">LOGOS</a>
+                            </li>
+                            <li class="nav-item m-3">
+                                <a href="#WEBSITES" class="nav-item link">WEBSITES</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
-    </nav>
+        <nav class="navbar navbar-dark bg-light" id="main-nav">
+            <div class="container">
+                <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+            </div>
+        </nav>
+    </div>
 
     <!-- ///////////////////////////////////////// -->
     <!-- HEADER -->
@@ -55,7 +70,7 @@
     <!-- HEADER -->
     <!-- ///////////////////////////////////////// -->
 
-    <section id="HOME" class="home-section py-5 mt-5">
+    <section id="HOME" class="home-section py-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
@@ -240,109 +255,78 @@
     <section id="WEBSITES" class="pb-5">
         <div class="col">
             <div class="container">
-
                 <div class="row">
                     <h2 class="title-headings pb-3 my-5">WEBSITES</h2>
                 </div>
 
                 <div class="row">
-
                     <h3 class="col mb-5">WORDPRESS / AMP</h3>
-
                     <div class="row">
-
                         <div class="col port-images templates mb-5">
-
                             <a href="https://davidsrudolf.com/" target="_blank" class="p-2">
                         <img src="images/websites/david.PNG" alt="daivd">
                         </a>
-
                         </div>
-
                     </div>
 
                     <div class="row">
-
                         <div class="col port-images templates mb-5">
-
                             <a href="https://springfieldcc.net/" target="_blank" class="p-2">
                         <img src="images/websites/spring.PNG" alt="blogen">
                         </a>
 
                         </div>
-
                     </div>
-
                 </div>
 
                 <div class="row">
-
                     <h3 class="col mb-5">TEMPLATES</h3>
-
                 </div>
 
                 <div class="row mt-5">
-
                     <div class="col port-images templates mr-1">
-
                         <a href="https://vaskokurko.github.io/" target="_blank" class="p-2">
                         <img src="images/websites/loso.jpg" alt="blogen">
                         </a>
-
                     </div>
-
                 </div>
 
                 <div class="row mt-5">
-
                     <div class="col port-images templates mr-1">
-
                         <a href="projects/blogen/blogenFinal/index.html" target="_blank" class="p-2">
                         <img src="images/websites/blogen.PNG" alt="blogen">
                         </a>
-
                     </div>
 
                     <div class="col port-images templates ml-1">
-
                         <a href="projects/folio/portfoilogrid/index.html" target="_blank" class="p-2">
                         <img src="images/websites/folio.PNG" alt="blogen">
                         </a>
-
                     </div>
                 </div>
 
                 <div class="row mt-2">
-
                     <div class="col port-images templates mr-1">
-
                         <a href="projects/glozzom/index.html" target="_blank" class="p-2">
                         <img src="images/websites/glozzom.PNG" alt="blogen">
                         </a>
-
                     </div>
 
                     <div class="col port-images templates ml-1">
-
                         <a href="projects/loopLab/index.html" target="_blank" class="p-2">
                         <img src="images/websites/loobLab.PNG" alt="blogen">
                         </a>
-
                     </div>
                 </div>
 
                 <div class="row mt-2">
-
                     <div class="col port-images templates">
-
                         <a href="projects/mizuxe/index.html" target="_blank" class="p-2">
                         <img src="images/websites/mizuxes.PNG" alt="blogen">
                         </a>
-
                     </div>
-
                 </div>
-
+                
             </div>
         </div>
     </section>
@@ -355,25 +339,27 @@
     <!-- FOOTER -->
     <!-- ///////////////////////////////////////// -->
 
-    <footer id="footer p-5">
+    <footer id="footer" class="p-5">
 
         <div class="container">
 
             <div class="row">
 
-                <h1 class="ml-5">Thank you for visiting my portfolio</h1>
-
-                <a href="#HOME" id="scroll-to-top">
-
-                    <p class="ml-4 p-4">top</p>
-
-                </a>
+                <h1 class="ml-5">Thank you for visiting my portfolio</h>
 
             </div>
 
         </div>
 
     </footer>
+
+    <!-- ///////////////////////////////////////// -->
+    <!-- SCRIPT -->
+    <!-- SCRIPT -->
+    <!-- SCRIPT -->
+    <!-- SCRIPT -->
+    <!-- SCRIPT -->
+    <!-- ///////////////////////////////////////// -->
 
     <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
@@ -385,9 +371,6 @@
 
     <!-- Add wow js lib -->
     <script src="js/wow.min.js"></script>
-
-    <!-- Custom Js -->
-    <script src="js/custom.js"></script>
 
     <script>
         //Get current year for copyright
