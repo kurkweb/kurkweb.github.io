@@ -25,6 +25,7 @@ body{
 
 #main-nav ul li a{
     color: #F2F2F2;
+    font-size: 10.5px;
 }
 
 #main-nav ul li a:hover{
@@ -35,6 +36,11 @@ body{
     background: #0E0B16!important;
     border-top: 5px solid #4717F6;
     color: #F2F2F2;
+}
+
+.paragraph{
+    font-family: sans-serif;
+    font-weight: lighter;
 }
 
 .titles{
