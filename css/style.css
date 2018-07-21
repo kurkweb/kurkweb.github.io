@@ -13,6 +13,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
+    background: #F9F8F8;
 }
 
 #main-nav{
