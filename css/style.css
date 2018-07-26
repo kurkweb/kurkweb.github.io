@@ -45,7 +45,7 @@ nav{
 .navbar-toggler{
     color: rgba(71,23,246,.5);
     border-color: rgba(71,23,246.1)!important;
-    z-index: 999;
+    z-index: 999;    
 }
 
 .navbar-toggler-icon{
